@@ -19,6 +19,7 @@ namespace EFCApp
         {
             using (Context context = new Context())
             {
+                
                 foreach (User user in context.Users)
                 {
                     if (user.Id == id)
